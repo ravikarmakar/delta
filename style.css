@@ -1,0 +1,22 @@
+* {
+    background:  rgb(103, 162, 213);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+h3 {
+    text-align: center;
+}
+div {
+    text-align: center;
+}
+.form {
+    border: 1px solid black ;
+    outline: 3px  solid black ;
+    width: 500px ;
+    text-align: center;
+    margin: auto;
+
+}
