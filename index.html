@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-</head>
-    <body>
-        
+  </head>
+  <body>
     <div class="form">
-        <form action="/server">
-            <h1>
-                Travel reservation form 
-            </h1>
-            <h3>
-                &#9734; denotes mandotory
-            </h3>
-            <div>
-                <lable for="n">Full Name</lable>
-                <br/>
-                <input type="text" placeholder="FirstName LastName" id="n" name="username" />
-                <br/>
-                <lable for="x"> Email Address</lable>
-                <br/>
-                <input type="email" placeholder="Email_address" id="x" name="mail" />
-            </div>
-            <div>
-                <!-- dropdown city name -->
-                <lable for="cityame">select tour package</lable>
-                <input type="selecter" id="cityname" value="city" name
-            </div>
-      
+      <form action="/server">
+        <h3>&#9734; denotes mandotory</h3>
+        <div>
+          <lable for="n">Full Name</lable>
+          <br />
+          <input
+            type="text"
+            placeholder="FirstName LastName"
+            id="n"
+            name="username"
+          />
+          <br />
+          <lable for="x"> Email Address</lable>
+          <br />
+          <input type="email" placeholder="Email_address" id="x" name="mail" />
+        </div>
+        <div>
+          <!-- dropdown city name -->
+          <lable for="cityame">select tour package</lable>
+          <input type="selecter" id="cityname" value="city" name
+        </div>
+
         <button>submit</button>
-       </form>
+      </form>
     </div>
-       
-    </body>
+  </body>
 </html>
